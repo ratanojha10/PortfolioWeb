@@ -28,7 +28,6 @@ body{
 	display: inline-flex;
 	justify-content: center;
 	font-size: 20px;
-
 }
 .para{
 	font-size: 18px;
@@ -38,17 +37,31 @@ body{
 	margin: 50px;
 
 }
-
 a{
 	text-decoration: none;
 	margin: 0px 15px 0px 15px;
-	transition: border-bottom 0.2s; 
-	color: ;
+}
+hr {
+  height: .25rem;
+  width: 25%;
+  margin-left: 10px;
+  background: green;
+  border: none;
+  transition: .2s ease-in-out;
+}
+.about:hover ~ hr {
+  margin-left: 5%;
+}
+
+.projects:hover ~ hr {
+  margin-left: 38%;
+}
+
+.contact:hover ~ hr {
+  margin-left: 72%;
 }
 a:hover{
 	color: red;
-	border-bottom: solid 0.1px green;
-	transition-delay: 0.2s;
 }
 .title{
 	width:240px;
