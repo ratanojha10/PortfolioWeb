@@ -51,8 +51,8 @@ a:hover{
 	transition-delay: 0.2s;
 }
 .title{
-	width:180px;
-	font-size: 30px;
+	width:200px;
+	font-size: 40px;
 	border-bottom: solid 5px green;
 }
 form{
