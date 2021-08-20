@@ -15,7 +15,7 @@ body{
 	text-align: center;
 	margin: 0;
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 50%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -34,8 +34,8 @@ body{
 	font-size: 18px;
 	width: 60%;
 	position: absolute;
-	top: 80%;
-  	left: 50%;
+	top: 20%;
+  	left: 40%;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 
@@ -52,12 +52,6 @@ a:hover{
 	border-bottom: solid 0.1px green;
 	transition-delay: 0.2s;
 }
-.about{
-	background-color: green;
-	border-radius: 5px;
-	width: 90px	;
-	color: red;
-}
 .title{
 	width:180px;
 	font-size: 30px;
@@ -69,6 +63,7 @@ form{
 	flex-direction: column;
 	width: 50%;
 	margin-top: 10px;
+	margin-left: 40px;
 }
 .text{
 	font-size: 20px;
@@ -92,7 +87,7 @@ form{
 	font-size: 18px;
 }
 button{
-	margin: 10px;
+	margin: 10px 50px;
 	width: 100px;
 	height: 40px ;
 	font-size: 18px;
